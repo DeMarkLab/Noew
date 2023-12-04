@@ -1,0 +1,194 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, i {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+a:link, a:active, a:visited{
+	text-decoration: none;
+	color: black;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header{
+	background: url(../images/bar.png);
+	border-bottom: 1px solid #000;
+	margin-bottom: 14px;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+header .container{
+	display: flex;
+	justify-content: space-between;
+}
+header img{
+	vertical-align: bottom;
+}
+.navbar ul{
+	display: flex;
+}
+.navbar ul li{
+	margin-top:18px ;
+}
+.navbar ul li a{
+	padding: 18px 17px 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+}
+.navbar ul li a:hover{
+	padding: 17px 17px 16px ;
+	background-color: rgba(255, 255, 255, 0.5)
+}
+.central_top{
+	position: relative;
+	box-sizing: border-box;
+	margin-bottom: 14px;
+}
+.reklama{
+	position: absolute;
+	bottom: 70px;
+	left: 150px;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	padding: 30px 45px;
+	border-radius: 3px;
+}
+.reklama h1{
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 30px;
+	color: #fff;
+}
+.reklama span{
+	font-weight: 400;
+}
+.central_bottom{
+	display: flex;
+	justify-content: space-between;
+}
+.central_bottom .block{
+	flex-basis: 300px;
+}
+.central_bottom p{
+	display: block;
+	background-image: url(../images/bar.png);
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	width: 300px;
+	margin-top: 7px;
+}
+.block_text{
+	width: 280px;
+}
+.block_text p{
+	padding: 14px 0px;
+}
+.block a:hover p{
+ background: #ff4400b7;
+}
+.block a:hover img{
+	opacity: 0.8;
+}
+.main_text .container{
+	display: flex;
+	justify-content: space-between;
+	color: #164E66;
+	margin-top: 28px;
+}
+.main_text .container h1, 
+.main_text .container h2,
+.main_text .container h3{
+	font-weight: 700;
+	margin-bottom: 14px;
+}
+.left_m{
+	padding: 7px;
+	flex-basis: 48%;
+}
+.right_m{
+	flex-basis: 48%;
+	box-sizing: border-box;
+	color: #164E66;
+}
+.block_aside{
+	padding: 14px 7px 28px;
+}
+.block_aside{
+	background-color: #E4EEEF;
+}
+.block_aside h2{
+	padding-top: 14px;
+}
+.footer{
+	margin-top: 14px;
+}
+.footer .container{
+	background-color: #164E66;
+	color: #fff;
+	padding: 14px;
+}
+.footer_top{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 7px;
+	border-bottom: 3px solid #96afba;
+}
+.footer_logo{
+	flex-basis: 48%;
+}
+.footer_text{
+	flex-basis: 48%;
+	display: flex;
+	justify-content: space-between;
+	padding: 7px;
+	
+}
+.footer_text h2{
+	margin-bottom: 14px;
+	color: #96afba;
+	font-weight: 700;
+}
+.footer_text_left{
+	padding-right: 7px;
+}
+.footer_bottom{
+	text-align: center;
+	margin-top: 14px;
+}
